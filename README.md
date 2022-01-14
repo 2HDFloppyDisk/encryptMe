@@ -1,26 +1,37 @@
 =============================================================
+
 encryptMe String Encryption Tool v1.0
 ReadMe File
 January 2020
 SwissArmyKnifeDev.com
+
 =============================================================
 
 =============================================================
+
 Contents:
+
 =============================================================
+
 1. System Requirements
 2. Getting Started
 3. Technical Support
 
 =============================================================
+
 1. System Requirements:
+
 =============================================================
+
 OS: x86 or x64 Windows 10 
 (Support for older operating systems not guaranteed)
 
 =============================================================
+
 2. Getting Started:
+
 =============================================================
+
 This package includes:
 	1) encryptMe Release Build (compiled .exe)
 	2) encryptMe VS Project (project and solution files 
@@ -60,8 +71,11 @@ To open the Visual Studio project,
 	2) Locate the file encrpytMe.sln and open it.
 
 =============================================================
+
 7. Technical Support
+
 =============================================================
+
 If you are having a problem you need assistance with, check 
 our website, https://swissarmyknifedev.com/, for up-to-date 
 information on the product.  
