@@ -36,7 +36,8 @@ How to use encrpytMe.exe application,
 	1) Open encrpytMe.exe
 	2) Click "Select String Encryption Method" from 
 	the main menu.
-	3) Select an encryption method from the drop-down box.
+	3) Select an encryption method from the 
+	drop-down box.
 	4) Enter the string you want to encrypt.
 	5) Click the "Encrypt" button.
 		5a) The "Copy" button may be used to copy 
@@ -53,8 +54,8 @@ How to use encrpytMe.exe application,
 	right corner) to close the application.
 
 To open the Visual Studio project,
-	1) Unzip "..\encrpytMe VS Project\encryptMe.zip" using 
-	your preferred file 
+	1) Unzip "..\encrpytMe VS Project\encryptMe.zip" 
+	using your preferred file 
 	compression utility.
 	2) Locate the file encrpytMe.sln and open it.
 
