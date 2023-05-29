@@ -1,8 +1,8 @@
 =============================================================
 
-encryptMe String Encryption Tool v1.0
+encryptMe String Encryption Tool v1.1
 ReadMe File
-January 2020
+May 2023
 SwissArmyKnifeDev.com
 
 =============================================================
@@ -79,4 +79,4 @@ To open the Visual Studio project,
 If you are having a problem you need assistance with, check 
 our website, https://swissarmyknifedev.com/, for up-to-date 
 information on the product.  
-Youcan also contact us at swissarmyknifedev@yahoo.com
+You can also contact us at swissarmyknifedev@yahoo.com
