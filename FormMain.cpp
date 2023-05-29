@@ -164,6 +164,17 @@ namespace EncryptMeMain {
 
 					str2[i] = temp;
 				}
+				//If the message to be encypted is contains special characters
+				else if (
+					temp == '$' || temp == '!' || temp == '@' || temp == '#' || temp == '%' || temp == '^' || temp == '&' ||
+					temp == '*' || temp == '(' || temp == ')' || temp == '_' || temp == '+' || temp == '{' || temp == '}' ||
+					temp == '|' || temp == ':' || temp == '\"' || temp == '<' || temp == '>' || temp == '?' || temp == '~' ||
+					temp == '`' || temp == '-' || temp == '=' || temp == '[' || temp == ']' || temp == '\\' || temp == ';' ||
+					temp == '\'' || temp == ',' || temp == '.' || temp == '/')
+				{
+					temp = temp + 1;
+					str2[i] = temp;
+				}
 
 				myNewText = gcnew String(str2);
 				//EncrpytMeConsole->AppendText("\r\n [zzzz]: " + myNewText[i]); //DEBUG
@@ -261,6 +272,30 @@ namespace EncryptMeMain {
 					if (temp3 > '9') {
 						temp3 = temp3 - '9' + '0' - 1;
 					}
+
+					str2[i] = temp1;
+					myNewText = gcnew String(str2);
+					StringOutput->AppendText("" + myNewText[i]);
+
+					str2[i] = temp2;
+					myNewText = gcnew String(str2);
+					StringOutput->AppendText("" + myNewText[i]);
+
+					str2[i] = temp3;
+					myNewText = gcnew String(str2);
+					StringOutput->AppendText("" + myNewText[i]);
+				}
+				//If the message to be encypted is contains special characters
+				else if (
+					temp1 == '$' || temp1 == '!' || temp1 == '@' || temp1 == '#' || temp1 == '%' || temp1 == '^' || temp1 == '&' ||
+					temp1 == '*' || temp1 == '(' || temp1 == ')' || temp1 == '_' || temp1 == '+' || temp1 == '{' || temp1 == '}' ||
+					temp1 == '|' || temp1 == ':' || temp1 == '\"' || temp1 == '<' || temp1 == '>' || temp1 == '?' || temp1 == '~' ||
+					temp1 == '`' || temp1 == '-' || temp1 == '=' || temp1 == '[' || temp1 == ']' || temp1 == '\\' || temp1 == ';' ||
+					temp1 == '\'' || temp1 == ',' || temp1 == '.' || temp1 == '/')
+				{
+					temp1 = temp1 + 1;
+					temp2 = temp1 + 1;
+					temp3 = temp2 + 1;
 
 					str2[i] = temp1;
 					myNewText = gcnew String(str2);
